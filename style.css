@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
 
-.top-banner{
+.top-banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,44 +18,91 @@ body{
     background-repeat: no-repeat;
     background-color: red;
     height: 100vh;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     color: #fff;
-    /* position: relative; */
 }
 
-/* .top-banner::after{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.2);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
-
-.top-banner > *{
+.top-banner>* {
     margin-bottom: 20px;
 }
 
-.top-banner h1{
+.top-banner h1 {
     text-align: center;
-    font-size: 60px;
-    /* position: relative;
-    z-index: 100; */
-    width: 60%;
+    font-size: 70px;
+    width: 70%;
 }
 
-.top-banner p{
+.top-banner p {
     text-align: center;
     width: 50%;
     font-size: 16px;
 }
 
-.link-button{
+.link-button {
     background-color: #FF5959;
     padding: 18px 24px;
     color: #fff;
     font-weight: 600;
     text-decoration: none;
     border-radius: 8px;
+}
+
+.donate-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.donate-section > *{
+    margin-bottom: 40px;
+}
+
+.donation-text h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.donate-section p {
+    text-align: center;
+}
+
+.donation-taka ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.donation-taka ul li{
+    background-color: #FAFAFA;
+    color: #707070;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#colored-box{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.donation-custom form{
+    width: 730px;
+}
+
+.donation-custom form input{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #acacac;
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
 }
