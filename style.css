@@ -217,18 +217,27 @@ footer p{
 }
 
 .surviving-people{
+    text-align: center;
+}
+
+.surviving-people h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.people{
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 140px;
 }
 
-.surviving-people > div {
+.people > div {
     width: 270px;
     height: 200px;
 }
 
-.surviving-people > div > img{
+.people > div > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
