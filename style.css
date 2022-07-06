@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-color: red;
     height: 100vh;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
     color: #fff;
 }
 
@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
 .donate-section > *{
@@ -112,7 +112,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
 .plan-cards{
@@ -155,6 +155,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 140px;
 }
 
 .updates-section > *{
@@ -194,4 +195,23 @@ body {
 
 .subscribe form button:hover{
     cursor: pointer;
+}
+
+footer{
+    height: 180px;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1{
+    color: #FF5959;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #fff;
+    font-weight: 300;
 }
