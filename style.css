@@ -71,7 +71,6 @@ body {
 
 .donation-taka ul{
     display: flex;
-    gap: 24px;
     list-style-type: none;
 }
 
@@ -86,6 +85,7 @@ body {
     font-size: 28px;
     font-weight: 700;
     border-radius: 5px;
+    margin-right: 24px;
 }
 
 #colored-box{
@@ -228,13 +228,13 @@ footer p{
 .people{
     display: flex;
     justify-content: center;
-    gap: 10px;
     margin-bottom: 140px;
 }
 
 .people > div {
     width: 270px;
     height: 200px;
+    margin-right: 10px;
 }
 
 .people > div > img{
